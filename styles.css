@@ -1,0 +1,48 @@
+body {
+    background-color: #c1aec4; /* Fondo morado*/
+}
+/* Estilos para los contenedores de información */
+#infoContainer,  #InfoEstudiante, #stepsContainer, #fastWebContainer, #cacheContainer {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #72177e;
+    background-color: #ac6db4;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+/* Estilos para los botones */
+.button {
+    background-color: #934d9c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #790d85;
+}
+
+h1{
+    font-size: 40;
+    margin-bottom: 20px;
+}
+/* Estilos para los encabezados */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las listas */
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Estilos para los párrafos */
+p {
+    margin: 10px 0;
+}
