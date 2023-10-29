@@ -1,1 +1,1 @@
-console.log("Hola");
+console.log("Bienvenido, crea tu PWA");
