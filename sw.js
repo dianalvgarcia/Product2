@@ -1,36 +1,25 @@
-var nombreCache = 'holaMundo';
-self.addEventListener(
-	'install',
-	function(evento){
-		evento.waitUntil(
-			caches.open(nombreCache)
-			.then(
-				function(cache){
-					cache.addAll(
-						[
-							'script.js',
-							'utp.png'
-						]
-					);
-				}
-			)
-		);
-	}
-);
+// sw.js
 
-self.addEventListener(
-	'fetch',
-	function(evento){
-		evento.respondWith(
-			caches.match(evento.request)
-			.then(
-				function(respuesta){
-					if(respuesta){
-						return respuesta;
-					}
-					return fetch(evento.request);
-				}
-			)
-		);
-	}
-);
+const CACHE_NAME = 'mi-cache';
+const urlsToCache = [
+  '/',
+  'index.html',  
+  '/styles.css',
+  '/script.js',
+  '/index.php'
+  
+];
+
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(urlsToCache))
+  );
+});
+
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request)
+      .then(response => response || fetch(event.request))
+  );
+});
