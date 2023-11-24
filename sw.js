@@ -2,7 +2,7 @@
 
 const CACHE_NAME = 'mi-cache';
 const urlsToCache = [
-  'index.html',  
+  '/index.html',  
   '/styles.css',
   '/script.js',
   '/index.php',

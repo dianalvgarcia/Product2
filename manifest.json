@@ -2,7 +2,7 @@
   "name": "Aplicaciones Web Progresivas",
   "short_name": "PWA",
   "description": "Para conocer más sobre las PWA navega en esta aplicación",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",

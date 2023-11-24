@@ -2,13 +2,14 @@ body {
     background-color: #c1aec4; /* Fondo morado*/
 }
 /* Estilos para los contenedores de información */
-#infoContainer,  #InfoEstudiante, #stepsContainer, #fastWebContainer, #cacheContainer, #InfoSplash {
+#infoContainer,  #InfoEstudiante, #stepsContainer, #fastWebContainer, #cacheContainer, #InfoSplash, #InfoPlatforms, #InfoParameters {
     display: none;
     margin: 30px;
     padding: 30px;
     border: 2px solid #72177e;
     background-color: #ac6db4;
     font-family: Arial, sans-serif;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -94,6 +95,18 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin: 5px;
+    padding: 3px;
+    color:#fff;
+    border: 2px solid #72177e;
+    background-color: #c28cc9;
+    font-family: "Arial";
+    text-align: justify;
+}
+
 /* Estilos para las listas */
 ul, ol {
     margin: 10px 0;
@@ -132,7 +145,7 @@ embed {
 }
 
 img{
-    width: 300px; 
+    width: 900px; 
     border: 2px solid #333;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
