@@ -1,17 +1,16 @@
 {
-    "name": "Aplicaciones Web Progresivas",
-    "short_name": "PWA",
-    "description": "Para conocer más sobre las PWA navega en esta aplicación",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
-    "icons": [
-      {
-        "src": "/utp.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }
-    ]
-  }
-  
+  "name": "Aplicaciones Web Progresivas",
+  "short_name": "PWA",
+  "description": "Para conocer más sobre las PWA navega en esta aplicación",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/utp.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

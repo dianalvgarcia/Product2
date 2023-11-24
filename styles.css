@@ -2,7 +2,7 @@ body {
     background-color: #c1aec4; /* Fondo morado*/
 }
 /* Estilos para los contenedores de información */
-#infoContainer,  #InfoEstudiante, #stepsContainer, #fastWebContainer, #cacheContainer {
+#infoContainer,  #InfoEstudiante, #stepsContainer, #fastWebContainer, #cacheContainer, #InfoSplash {
     display: none;
     margin: 30px;
     padding: 30px;
@@ -129,4 +129,11 @@ p {
 embed {
     width: 100%;
     height: 150vh;
+}
+
+img{
+    width: 300px; 
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

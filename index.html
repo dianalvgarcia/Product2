@@ -22,6 +22,7 @@
             <button class="button" id="btnMostrarPasos">Primeros pasos para construir una PWA</button>
             <button class="button" id="btnFastWeb">Aplicaciones web más rápidas</button>
             <button class="button" id="btnCache">Almacenamiento en caché</button>
+            <button class="button" id="btnSplash">Pantallas de Splash y Home</button>
 
         </div>
     </div>
@@ -163,6 +164,16 @@
 
     </div>
 
+    <div id="InfoSplash">
+        <h1>
+            Capturas de pantalla de la implementación de descarga de la PWA
+        </h1>
+        <img src="SPLASH 1.png" alt="Notificación de descarga desde navegador de PWA">
+        <img src="SPLASH 1 DESCARGA PC.png" alt="Descarga de PWA desde ">
+
+
+    </div>
+
     <script>
         $(document).ready(function () {
             $("#btnEstudiante").click(function () {
@@ -171,6 +182,7 @@
                 $("#stepsContainer").hide();
                 $("#fastWebContainer").hide();
                 $("#cacheContainer").hide();
+                $("#InfoSplash").hide();
             });
             $("#btnMostrarInfo").click(function () {
                 $("#infoContainer").toggle();
@@ -178,6 +190,7 @@
                 $("#stepsContainer").hide();
                 $("#fastWebContainer").hide();
                 $("#cacheContainer").hide();
+                $("#InfoSplash").hide();
             });
 
             $("#btnMostrarPasos").click(function () {
@@ -186,6 +199,7 @@
                 $("#infoContainer").hide();
                 $("#fastWebContainer").hide();
                 $("#cacheContainer").hide();
+                $("#InfoSplash").hide();
             });
 
             $("#btnFastWeb").click(function () {
@@ -194,10 +208,21 @@
                 $("#infoContainer").hide();
                 $("#stepsContainer").hide();
                 $("#cacheContainer").hide();
+                $("#InfoSplash").hide();
             });
 
             $("#btnCache").click(function () {
                 $("#cacheContainer").toggle();
+                $("#InfoEstudiante").hide();
+                $("#infoContainer").hide();
+                $("#stepsContainer").hide();
+                $("#fastWebContainer").hide();
+                $("#InfoSplash").hide();
+            });
+
+            $("#btnSplash").click(function () {
+                $("#InfoSplash").toggle();
+                $("#cacheContainer").hide();
                 $("#InfoEstudiante").hide();
                 $("#infoContainer").hide();
                 $("#stepsContainer").hide();
